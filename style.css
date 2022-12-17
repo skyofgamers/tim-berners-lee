@@ -6,7 +6,8 @@ body{
 
 .profile{
     border-radius: 50%;
-    width: 30%;
+    width: 20%;
+    margin-top: 80px;
 }
 
 #welcome{
@@ -54,21 +55,50 @@ h2{
  }
 
  .menu{
-   list-style: none;
-   position: absolute;
-   top: 10px;
-   right: 30px;
+   position: fixed;
+   background-color: white;
+   width: 100%;
+   margin-top: 0px;
+   top: 0px;
    z-index: 10;
-   cursor: pointer;
+   line-height: 2;
  }
 
  .links{
-   float: left;
-   padding-top: 9px;
-   padding-bottom: 9px;
-   padding-right: 5px;
-   padding-left: 5px;
+   display: inline;
+   padding-left: 33px;
+   padding-right: 25px;
    font-family: fantasy;
-   font-size: 20px;
-   margin: 10px;
+   font-size: 25px;
+
  }
+
+ a{
+   text-decoration: none;
+ }
+
+
+
+ a:hover{
+   color: rgb(91, 201, 201);
+ }
+
+ img:hover{
+   width: 10%;
+   padding-top: 10px;
+ }
+ .links:hover {
+  font-size: 30px;
+  text-decoration: underline;
+ }
+
+ #contact iframe{
+  width: 100%;
+  margin: 20px;
+  height: 700px;
+ }
+.contact h3{
+  display: inline;
+  
+}
+ 
